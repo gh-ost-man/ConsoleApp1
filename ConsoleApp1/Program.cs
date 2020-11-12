@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using BusinessCardLib;
 namespace ConsoleApp1
 {
     class Program
@@ -11,6 +11,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             Console.WriteLine("Aloha");
+            BusinessCard bc = new BusinessCard();
         }
     }
 }
